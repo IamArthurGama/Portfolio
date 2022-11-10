@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    color: rgb(32, 32, 32)
+    color: rgb(32, 32, 32);
 }
 
 /* HEADER */        
@@ -69,7 +69,7 @@ a:hover {
 .checkbox {
     height: 100px;
     width: 100px;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     display: flex;
@@ -113,7 +113,8 @@ a:hover {
     position: absolute;
     top: 28px;
     right: 30px;
-    background-color: transparent;
+    background-color: #ffffff;
+    opacity: 75%;
     height: 4px;
     width: 10px;
     border-radius: 50%;
@@ -170,18 +171,20 @@ a:hover {
 }
 
 #toggle:checked + .checkbox {
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 #toggle:checked ~ .menu {
     box-shadow: 0px 0px 0px 100vmax #ffffff;
     z-index: 1;
+    opacity: 75%;
 }
 
 #toggle:checked ~ .menu-items {
     visibility: visible;
     opacity: 1;
 }
+
 
 /*  CARDS */
 
@@ -194,11 +197,56 @@ a:hover {
     margin: 3rem 0;
 }
 
-.card-container {
+.card-containerP1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
+}
+
+.card-containerP1 a:hover{
+    background: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-containerP2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.card-containerP2 a:hover{
+    background: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-containerP3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.card-containerP3 a:hover{
+    background: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-containerP4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.card-containerP4 a:hover{
+    background: none;
+    text-decoration: none;
+    color: inherit;
 }
 
 .card {
@@ -291,3 +339,12 @@ a:hover {
     justify-content: center;
     color: rgb(32, 32, 32);
  }
+
+ section {
+    margin: 0;
+ }
+
+ html {
+    scroll-behavior: smooth;
+ }
+ 
