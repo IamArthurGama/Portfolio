@@ -370,3 +370,7 @@ a:hover {
 #qse {
     letter-spacing: normal;
 }
+
+a {
+    text-decoration: none;
+}
