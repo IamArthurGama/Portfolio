@@ -175,7 +175,7 @@ a:hover {
 }
 
 #toggle:checked ~ .menu {
-    box-shadow: 0px 0px 0px 200vmax #ffffff;
+    box-shadow: 0px 0px 0px 500vmax #ffffff;
     z-index: 1;
     opacity: 75%;
 }
@@ -367,7 +367,7 @@ a:hover {
     padding: 0 0 70px;
 }
 
-#qse {
+#quem-sou-eu {
     letter-spacing: normal;
 }
 
