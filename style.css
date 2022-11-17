@@ -197,57 +197,19 @@ a:hover {
     margin: 3rem 0;
 }
 
-.card-containerP1 {
+.card-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
 }
 
-.card-containerP1 a:hover{
+.card-container a:hover{
     background: none;
     text-decoration: none;
     color: inherit;
 }
 
-.card-containerP2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90%;
-}
-
-.card-containerP2 a:hover{
-    background: none;
-    text-decoration: none;
-    color: inherit;
-}
-
-.card-containerP3 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90%;
-}
-
-.card-containerP3 a:hover{
-    background: none;
-    text-decoration: none;
-    color: inherit;
-}
-
-.card-containerP4 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90%;
-}
-
-.card-containerP4 a:hover{
-    background: none;
-    text-decoration: none;
-    color: inherit;
-}
 
 .card {
     width: 300px;
