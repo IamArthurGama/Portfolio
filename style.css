@@ -13,8 +13,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: rgb(255, 230, 0);
-    background-image: url('./img/ASSINATURA.png');
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-position: center;
     background-size: contain;
     display: flex;
@@ -24,6 +23,17 @@ body {
     box-sizing: border-box;
     padding: 0 112px;
     position: relative;
+}
+
+img{
+    height: 32vw;
+    width: 32vw;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 650px;
+    margin-right: 450px;
+    display: flex;
+    float: right;
 }
 
 h1 {
@@ -293,7 +303,7 @@ a:hover {
  /* FOOTER */  
 
  .footer {
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background-color: rgb(255, 230, 0);
     display: flex;
@@ -310,7 +320,7 @@ a:hover {
 
 
  .card-sobre {
-    width: 100%;
+    width: 100vw;
     height: 60px;
     background-color: rgb(255, 230, 0);
     display: flex;
@@ -336,3 +346,67 @@ a:hover {
 a {
     text-decoration: none;
 }
+
+@media (max-width: 950px){
+    img{
+       display:none;
+    }
+
+    .header-container {
+        align-items: center;    
+        position:center;
+    }
+
+    h1 {
+        font-size: 70px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    
+    .social-media {
+        margin-top: 1rem;
+        display: flex;
+    }
+
+    .social-media a {
+        text-decoration: none;
+        color:rgb(32, 32, 32);
+        padding: 2rem 8rem;
+        border: 1px solid rgb(32, 32, 32);
+        min-width: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .5 ease-in-out;
+        font-size: rem;
+    }
+
+    .checkbox {
+        height: 100px;
+        width: 100px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 9999;
+        transition: 400ms ease-in-out 0s;
+    }
+    
+    .checkbox-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #quem-sou-eu{
+        align-items: center;
+    }
+};
